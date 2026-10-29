@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameVault</string>
+
+    <string name="action_add">Adicionar</string>
+    <string name="action_add_first">Adicionar primeiro jogo</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_clear_filters">Limpar filtros</string>
+    <string name="action_retry">Tentar novamente</string>
+    <string name="action_favorite">Marcar como favorito</string>
+    <string name="action_unfavorite">Remover dos favoritos</string>
+
+    <string name="search_placeholder">Pesquisar pelo nome</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="filter_platform">Plataforma</string>
+    <string name="filter_genre">Género</string>
+    <string name="filter_all_platforms">Todas as plataformas</string>
+    <string name="filter_all_genres">Todos os géneros</string>
+
+    <string name="status_to_play">Por Jogar</string>
+    <string name="status_playing">A Jogar</string>
+    <string name="status_completed">Concluído</string>
+
+    <string name="sort_recent">Mais recentes</string>
+    <string name="sort_name_asc">Nome (A-Z)</string>
+    <string name="sort_name_desc">Nome (Z-A)</string>
+    <string name="sort_year_desc">Ano (mais novo)</string>
+    <string name="sort_year_asc">Ano (mais antigo)</string>
+    <string name="sort_rating_desc">Melhor avaliação</string>
+
+    <plurals name="games_count">
+        <item quantity="one">%d jogo</item>
+        <item quantity="other">%d jogos</item>
+    </plurals>
+
+    <string name="empty_collection_title">A sua coleção está vazia</string>
+    <string name="empty_collection_message">Adicione o primeiro jogo para começar a organizar a sua coleção.</string>
+    <string name="no_results_title">Sem resultados</string>
+    <string name="no_results_message">Nenhum jogo corresponde à pesquisa ou aos filtros aplicados.</string>
+
+    <string name="game_subtitle">%1$s · %2$d</string>
+    <string name="game_not_found">Jogo não encontrado</string>
+    <string name="game_not_found_message">Este jogo pode ter sido eliminado.</string>
+    <string name="detail_info">Informação</string>
+    <string name="added_on">Adicionado em %1$s</string>
+    <string name="list_separator">" · "</string>
+    <string name="rating_star">%1$d de 5 estrelas</string>
+
+    <string name="field_name">Nome</string>
+    <string name="field_platform">Plataforma</string>
+    <string name="field_genre">Género</string>
+    <string name="field_year">Ano de lançamento</string>
+    <string name="field_status">Estado</string>
+    <string name="field_rating">Avaliação</string>
+    <string name="field_notes">Notas</string>
+    <string name="field_favorite">Favorito</string>
+    <string name="field_cover">Capa</string>
+    <string name="notes_counter">%1$d/%2$d</string>
+
+    <string name="form_title_new">Novo jogo</string>
+    <string name="form_title_edit">Editar jogo</string>
+    <string name="form_search_online">Pesquisar jogo online</string>
+    <string name="form_suggestions">Sugestões</string>
+    <string name="cover_pick">Galeria</string>
+    <string name="cover_remove">Remover capa</string>
+
+    <string name="error_required">Campo obrigatório</string>
+    <string name="error_too_long">Máximo de %1$d caracteres</string>
+    <string name="error_invalid_number">Introduza um número válido</string>
+    <string name="error_year_range">Introduza um ano entre %1$d e %2$d</string>
+    <string name="error_duplicate">Este jogo já existe na coleção para esta plataforma.</string>
+    <string name="error_cover_import">Não foi possível importar a imagem.</string>
+
+    <string name="search_title">Pesquisar jogo</string>
+    <string name="search_hint">Escreva pelo menos 2 letras para pesquisar.</string>
+    <string name="search_empty">Nenhum jogo encontrado.</string>
+    <string name="search_error_network">Sem ligação à internet. Verifique a ligação e tente novamente.</string>
+    <string name="search_error_unknown">Ocorreu um erro inesperado na pesquisa.</string>
+    <string name="freetogame_attribution">Dados e imagens fornecidos por FreeToGame</string>
+    <string name="freetogame_url" translatable="false">https://www.freetogame.com</string>
+
+    <string name="delete_title">Eliminar jogo</string>
+    <string name="delete_message">Tem a certeza que pretende eliminar \"%1$s\"? Esta ação não pode ser anulada.</string>
+
+    <string name="stats_title">Estatísticas</string>
+    <string name="stats_total">Jogos</string>
+    <string name="stats_favorites">Favoritos</string>
+    <string name="stats_completed">Concluídos</string>
+    <string name="stats_by_status">Por estado</string>
+    <string name="stats_average_rating">Avaliação média</string>
+    <string name="stats_rating_value">%1$.1f / 5</string>
+    <plurals name="stats_rated_count">
+        <item quantity="one">%d jogo avaliado</item>
+        <item quantity="other">%d jogos avaliados</item>
+    </plurals>
+    <string name="stats_no_ratings">Ainda não avaliou nenhum jogo.</string>
+    <string name="stats_top_platforms">Plataformas mais frequentes</string>
+    <string name="stats_top_genres">Géneros mais frequentes</string>
+    <string name="stats_years">Anos de lançamento</string>
+    <string name="stats_year_span">De %1$d a %2$d</string>
+    <string name="stats_empty_message">Adicione jogos à coleção para ver as estatísticas.</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="settings_title">Definições</string>
+    <string name="settings_appearance">Aparência</string>
+    <string name="theme_system">Igual ao sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="settings_about">Sobre</string>
+    <string name="about_version">Versão</string>
+    <string name="about_developer">Programador</string>
+    <string name="about_api">Pesquisa online</string>
+    <string name="api_configured">Configurada</string>
+    <string name="api_not_configured">Não configurada</string>
+</resources>
