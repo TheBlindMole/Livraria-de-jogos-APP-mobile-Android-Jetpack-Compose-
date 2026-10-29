@@ -1,9 +1,10 @@
 # GameVault
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-  <img src="menu.jpeg" alt="Menu" style="max-width: 15%; height: auto;" />
-  <img src="procura.jpeg" alt="Procura" style="max-width: 15%; height: auto;" />
-</div>
+<p align="center">
+  <img src="menu.jpeg" alt="Menu" width="220" />
+  &nbsp;&nbsp;
+  <img src="procura.jpeg" alt="Procura" width="220" />
+</p>
 
 Aplicação Android para gerir uma coleção de jogos. Permite registar jogos, acompanhar o estado de cada um, dar avaliações e ver estatísticas da coleção. Os dados ficam guardados no dispositivo e a aplicação funciona sem internet (exceto na pesquisa online).
 
